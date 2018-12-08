@@ -7,3 +7,5 @@ for led in tree:
     led.source_delay = 0.1
     led.source = random_values()
 pause()
+for led in tree:
+    led.off()
